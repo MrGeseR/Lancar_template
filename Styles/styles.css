@@ -27,6 +27,8 @@ h3 {
   color: #888;
   line-height: 30px;
   text-transform: uppercase;
+  padding: 10px;
+
 }
 
 .banner {
@@ -116,8 +118,21 @@ background-color: #2ba560;
   opacity: 0.6
 }
 
+.services {
+  text-align: center;
+  padding: 25px 0;
+}
 .services__tools {
   text-align: center;
+  width: 80px;
+  height: 80px;
+  display: block;
+  background:  #2ba560;
+  border-radius: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  border: 1px solid #2ba560;
+  color: #fff;
 }
 .services_description {
   margin: 20px auto;
@@ -125,20 +140,35 @@ background-color: #2ba560;
 }
 
 .icons {
-  margin: 0 auto;
-  padding-top: 19px;
-  transition: all .3s;
   font-size: 34px;
-  color: #fff;
   line-height: 34px;
   text-align: center;
 }
 
-.icons {
-  width: 80px;
-  height: 80px;
-  background:  #2ba560;
-  border-radius: 40px;
+.services__tools:hover {
+  transition: all .3s;
+  color: #2ba560;
+  background-color: #fff;
+  border: 1px solid #2ba560;
+}
+.services__tools_description {
+  font-size: 18px;
+}
+.partners {
+  background-color: #f8f8f8;
 }
 
+.partners__text {
+  color: #ccc;
+}
 
+.partners__list {
+  padding: 50px 10px;
+}
+.partners__link{
+  margin: 0 15px;
+}
+.partners__link:hover {
+  transition: all .3s;
+  opacity: 0.6;
+} 
