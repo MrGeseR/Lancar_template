@@ -116,6 +116,9 @@ background-color: #2ba560;
   opacity: 0.6
 }
 
+.services__tools {
+  text-align: center;
+}
 .services_description {
   margin: 20px auto;
   font-size: 22px;
@@ -132,12 +135,10 @@ background-color: #2ba560;
 }
 
 .icons {
-  background: #2ba560;
-  border-radius: 40px;
-  border: 1px solid #2ba560;
   width: 80px;
   height: 80px;
-  padding: 20px;
-  margin: 0 auto;
+  background:  #2ba560;
+  border-radius: 40px;
 }
+
 
